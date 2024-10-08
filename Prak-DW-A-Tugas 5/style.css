@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'HomeVideoFont';
+    src: url('font/HomeVideo-BLG6G.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'HomeVideoFont', sans-serif;
+    margin: 0;
+    background-color: #EEAF7A;
+    
+}
+.form-control {
+    background-color: #8B654E;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0px black;
+    font-family: 'HomeVideoFont', sans-serif;
+
+}
+button {
+    font-family: 'HomeVideoFont', sans-serif;
+    background-color: #C6CDCE;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: 2px 2px 0px black;
+    display: inline-block;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    }
+      
+button:hover {
+    background-color: #818586;
+    box-shadow: 1px 1px 0px black;
+    transform: translate(1px, 1px);
+}
+
+::placeholder{
+    font-family: 'HomeVideoFont', sans-serif;
+    color: white;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+#session-container {
+    margin-bottom: 20px;
+}
+
+#session-container input {
+    margin-right: 10px;
+}
+
+form, .buku {
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 5px 0;
+    padding: 8px;
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+}
+
+
+
+#daftar-buku, #buku-favorit {
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: 2px 2px 0px black;
+
+}
+
+.buku {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.buku:last-child {
+    border-bottom: none;
+}
+
+.buku p {
+    margin: 0;
+}
+
+.buku button {
+    margin-top: 10px;
+}
+
+.btn {
+    background-color:#f0a040; 
+    color: black;
+}
+.btn:hover {
+    background-color:#bc8037; 
+    color: black;
+}
+footer {
+    padding: 0; 
+    margin-top: 20px; 
+}
+
+footer img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0; 
+    padding: 0; 
+    border: none;
+}
+#session-container{
+    margin: 20px;
+}
+#form-tambah-buku{
+    margin: 20px;
+}
+.text-center{
+    margin: 20px;
+}
+#daftarBuku {
+    margin: 20px;
+}
+#bukuFavorit {
+    margin: 20px;
+}
